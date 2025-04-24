@@ -2,6 +2,12 @@
     "name": "react-ref-modal",
     "description": "React 19+ Tailwind proped modal",
     "version": "1.0.0",
+    "main": "dist/Modal.js",
+    "types": "dist/Modal.d.ts",
+    "scripts": {
+        "build": "tsc && npm run copy-css",
+        "copy-css": "cp ./ModalStyle.css dist/"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/tholho/react-ref-modal.git"
@@ -18,14 +24,14 @@
         "tailwindcss": ">=3.3.0"
     },
     "devDependencies": {
-        "@tailwindcss/postcss": "@4.1.3",
-        "@tailwindcss/vite": "@4.1.3",
-        "@types/react-dom": "@19.1.2",
-        "@types/react": "@19.1.0",
+        "@tailwindcss/postcss": "^4.1.3",
+        "@tailwindcss/vite": "^4.1.3",
+        "@types/react": "^19.1.2",
+        "@types/react-dom": "^19.1.2",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "tailwindcss": "^4.1.3",
-        "vite": "^6.2.6",
-        "typescript": "^5.7.3"
+        "typescript": "^5.8.3",
+        "vite": "^6.2.6"
     }
 }
