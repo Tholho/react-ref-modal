@@ -1,0 +1,8 @@
+.no-scroll {
+    overflow: hidden;
+}
+
+.modalOpened {
+    overflow: hidden;
+    opacity: 0.5;
+  }

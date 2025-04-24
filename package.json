@@ -1,0 +1,15 @@
+{
+    "name": "react-ref-modal",
+    "description": "React 19+ Tailwind proped modal",
+    "version": "1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tholho/react-ref-modal.git"
+    },
+    "keywords": [],
+    "author": "Tho Lho",
+    "bugs": {
+      "url": "https://github.com/tholho/react-ref-modal/issues"
+    },
+    "homepage": "https://github.com/tholho/react-ref-modal"
+  }
