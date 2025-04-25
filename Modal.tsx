@@ -46,7 +46,7 @@ const Modal: React.FC<ModalProps> = ({ message, openModalRef, className }) => {
         }
     };
     return (
-        <dialog className={`self-center justify-self-center p-4 rounded-2xl text-2xl bg-gray-800 border border-gray-300 text-white ${className}`}
+        <dialog className={`${className}`}
             ref={modalRef}
         >
             <div className="flex flex-col">

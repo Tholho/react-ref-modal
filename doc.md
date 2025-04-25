@@ -5,13 +5,15 @@ This modal makes use of the useRef hook and the ability to pass it as prop thank
 
 # Example default Usage
 
+By default, the modal will place at top left of the window, it is strongly advised to add the tailwind classes 'self-center' & 'justify-self-center' to offer best user experience.
+
 ```
 const openModalRef = useRef<HTMLButtonElement>(null);
 
 ...
 
 <button ref={openModalRef} className="border mb-0 p-2 rounded self-auto border-gray-300 bg-gray-700 hover:bg-gray-500 active:translate-px" type="submit" onClick={createNewEmployeeOnSubmit}>Save</button>
-<Modal openModalRef={openModalRef} message="Employee created!"></Modal>
+<Modal openModalRef={openModalRef} className={self-center justify-self-center} message="Employee created!"></Modal>
 
 ```
 
@@ -21,10 +23,8 @@ You can tailor the style of the modal by simply adding a className prop to the M
 
 ```
 
-<Modal className={text-pink-500} openModalRef={openModalRef} message="Employee created!"></Modal>
+<Modal className={self-center justify-self-center p-4 rounded-2xl text-2xl bg-gray-800 border border-gray-300 text-white} openModalRef={openModalRef} message="Employee created!"></Modal>
 
 ```
-
-This will override the white color with pink.
 
 The button text and borders inherit the parent modal styling.
