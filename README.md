@@ -5,7 +5,7 @@ https://github.com/tholho/react-ref-modal
 
 A simple modal plugin.
 
-Default (dark) style can be overriden with tailwind class names.
+Default style can be overriden with tailwind class names.
 
 # Installation
 
