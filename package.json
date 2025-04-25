@@ -1,7 +1,7 @@
 {
     "name": "react-ref-modal",
     "description": "React 19+ Tailwind proped modal",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/Modal.js",
     "types": "dist/Modal.d.ts",
     "scripts": {
