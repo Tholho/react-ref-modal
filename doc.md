@@ -3,7 +3,7 @@
 This modal makes use of the useRef hook and the ability to pass it as prop thanks to React 19
 
 
-# Example default Usage
+# Example default usage
 
 By default, the modal will place at top left of the window, it is strongly advised to add the tailwind classes 'self-center' & 'justify-self-center' to offer best user experience.
 
