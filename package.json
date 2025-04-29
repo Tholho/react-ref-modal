@@ -14,9 +14,7 @@
     },
     "keywords": ["modal", "simple", "tailwindcss", "Tailwind", "useRef", "ref"],
     "author": "Tho Lho",
-	{
-    "license": "MIT"
-	},
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/tholho/react-ref-modal/issues"
     },
