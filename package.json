@@ -1,7 +1,7 @@
 {
     "name": "react-ref-modal",
     "description": "React 19+ Tailwind proped modal",
-    "version": "1.0.1c",
+    "version": "1.0.1d",
     "main": "dist/Modal.js",
     "types": "dist/Modal.d.ts",
     "scripts": {
@@ -14,6 +14,9 @@
     },
     "keywords": ["modal", "simple", "tailwindcss", "Tailwind", "useRef", "ref"],
     "author": "Tho Lho",
+	{
+    "license": "MIT"
+	},
     "bugs": {
         "url": "https://github.com/tholho/react-ref-modal/issues"
     },
