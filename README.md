@@ -1,6 +1,7 @@
 # react-ref-modal - Requires React19+, TypeScript & TailwindCSS
 
 https://www.npmjs.com/package/react-ref-modal
+
 https://github.com/tholho/react-ref-modal
 
 A simple modal plugin.
@@ -24,3 +25,7 @@ const openModalRef = useRef<HTMLButtonElement>(null);
 <Modal openModalRef={openModalRef} className={self-center justify-self-center} message="Employee created!"></Modal>
 
 ```
+
+# License
+
+MIT
